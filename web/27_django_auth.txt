@@ -47,12 +47,13 @@ form._user = request.user
 ===================-----------------------
 
  $ pwd -> /home/box
- $ mkdir web
 
- $ git clone https://github.com/.....git /home/box
+ $ git clone https://github.com/.....git /home/box/a
+ $ mv a/web web
+ 	
  $ sudo /etc/init.d/mysql start
- $ bash mysql_init.sh
- $ bash init.sh
+ $ bash web/mysql_init.sh
+ $ bash web/init.sh
    yes
    box@box.com
    111
