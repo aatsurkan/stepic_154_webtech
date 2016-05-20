@@ -48,8 +48,8 @@ form._user = request.user
 
  $ pwd -> /home/box
 
- $ git clone https://github.com/.....git /home/box/a
- $ mv a/web web
+ $ git clone https://github.com/aatsurkan/stepic_154_webtech.git /home/box/a
+ $ mv a/web/ web
  	
  $ sudo /etc/init.d/mysql start
  $ bash web/mysql_init.sh
