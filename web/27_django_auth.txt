@@ -44,12 +44,14 @@ form._user = request.user
  https://docs.djangoproject.com/en/1.8/topics/auth/default/#django.contrib.auth.login
  https://docs.djangoproject.com/en/1.8/topics/auth/default/#authenticating-users
 
-===================-----------------------
++--------+
+| Stepic |]====================================================================
++--------+ 
 
  $ pwd -> /home/box
 
  $ git clone https://github.com/aatsurkan/stepic_154_webtech.git /home/box/a
- $ mv a/web/ web
+ $ mv a/web web/
  	
  $ sudo /etc/init.d/mysql start
  $ bash web/mysql_init.sh
@@ -58,3 +60,23 @@ form._user = request.user
    box@box.com
    111
    111
+
++-----------+
+| localhost |]=================================================================
++-----------+ 
+
+ ubuntu 14.04.4 server base install ## username box
+   sudo apt-get update
+   sudo apt-get upgrade
+   sudo apt-get install build-essential
+   sudo apt-get install mysql-server ## root pass is empty
+   sudo apt-get install nginx
+   sudo apt-get install git
+   sudo apt-get install python-pip
+   sudo apt-get install python-django
+   sudo apt-get install python-mysqldb
+   sudo pip install gunicorn
+   sudo pip install django-autofixture
+
+   include Stepic steps :)
+
